@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body {
     /* background: blue; */
 }
@@ -17,10 +18,18 @@ body {
     padding-left: 1.7vw;
     display: flex;
     gap: 1.2vw;
+=======
+#nav-login{
+    max-width: 100%;
+    padding: 1.3vw;
+    height: 4vh;
+    display: flex;
+>>>>>>> 1818fa7816b624010cbf987e8bf912c377940d7c
     justify-content: space-between;
     align-items: center;
     background: black;
 
+<<<<<<< HEAD
     & a {
         color: white;
         display: flex;
@@ -76,5 +85,10 @@ body {
             height: 8.6vh;
             background: green;
         }
+=======
+    & a{
+        display: flex;
+        text-decoration: none;
+>>>>>>> 1818fa7816b624010cbf987e8bf912c377940d7c
     }
 }

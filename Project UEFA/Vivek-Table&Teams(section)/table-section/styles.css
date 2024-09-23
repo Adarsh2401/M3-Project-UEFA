@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.container {
+  border: 1px solid #a3a4b7;
+  width: 80vw;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-family:"Manrope regular", system-ui, sans-serif;
+}
+
+
+tr td {
+    padding: 8px;
+    border-bottom: 1px solid #a3a4b7;
+    
+}
+
+tr:hover{
+    background-color: rgb(225, 216, 216);
+}
+
+tr td:not(:first-child) {
+  text-align: center;
+}
+
+.radio {
+  width: 120px;
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+.radio div {
+  border: 1px solid rgba(115, 113, 113, 0.669);
+  float: left;
+  color: green;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin-left:10px;
+}
+
+.radio div:last-child {
+  background-color: green;
+  color: white;
+  text-decoration: underline;
+}
+
+.officil-imgage div,
+p {
+  text-align: center;
+  margin: 22px;
+}
+
+.officil-imgage img {
+  margin: 10px;
+  max-width: 100px;
+}
+
+.footer {
+  background-image: url("./images/24.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  img {
+    height: 150px;
+  }
+}
+
+.menu-container {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: -130px;
+}
+.menu-list:nth-child(even) {
+  border-right: 2px solid white;
+  height: 130px;
+  margin: 20px;
+}
+
+.menu-list li {
+  list-style: none;
+  text-align: center;
+  color: aliceblue;
+}
+
+.follow {
+  display: flex;
+  justify-content: space-around;
+  span {
+    color: aliceblue;
+  }
+  img {
+    height: 50px;
+  }
+}
+
+.footer-service-nav {
+  margin-top: -22px;
+
+  ul {
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px;
+  }
+  P {
+    color: aliceblue;
+    line-height: 0.5rem;
+  }
+}
