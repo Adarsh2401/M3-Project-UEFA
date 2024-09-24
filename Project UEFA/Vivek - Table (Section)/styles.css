@@ -1,7 +1,97 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 14px;
+}
+
+.nav-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100vw;
+  height: 5vh;
+  background: #000;
+  padding: 8px;
+
+  .logo img {
+    width: 5vw;
+    height: 2.4vh;
+  }
+
+  .log {
+    display: flex;
+    gap: 0.34vw;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    svg {
+      /* width: 2.76vw; */
+      height: 2.42vh;
+      color: white;
+    }
+  }
+}
+
+/* Sub - Header */
+#sub-header {
+  max-width: 100vw;
+  height: 4rem;
+  background: linear-gradient(
+    to right,
+    rgb(19, 19, 232) 40%,
+    rgb(0, 0, 108) 80%
+  );
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 55px;
+    margin-top: 0px;
+    padding-top: 8px;
+    gap: 33px;
+    font-size: small;
+
+    li {
+      list-style: none;
+      color: white;
+
+      &:hover {
+        cursor: pointer;
+        color: aqua;
+        transition: 0.23s ease-out;
+      }
+      &:nth-child(3) {
+        background-color: aqua;
+        color: rgb(33, 33, 53);
+        border-radius: 50%;
+        width: 80px;
+        text-align: center;
+      }
+      &:first-child img {
+        height: 2.4rem;
+      }
+    }
+
+    & > .favourite {
+      display: flex;
+      align-items: center;
+      gap: 0.42vw;
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 50px;
+      color: white;
+      font-size: 15px;
+      width: 190px;
+      font-weight: bold;
+
+      &:hover {
+        cursor: pointer;
+        border: 0.07vw solid rgb(157, 156, 156);
+        color: rgb(157, 156, 156);
+      }
+    }
+  }
 }
 
 .container {
@@ -10,6 +100,7 @@
   margin: auto;
   padding: 30px;
   border-radius: 15px;
+  font-size: 14px;
 }
 
 .image-center {
@@ -24,18 +115,16 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  font-family:"Manrope regular", system-ui, sans-serif;
+  font-family: "Manrope regular", system-ui, sans-serif;
 }
-
 
 tr td {
-    padding: 8px;
-    border-bottom: 1px solid #a3a4b7;
-    
+  padding: 8px;
+  border-bottom: 1px solid #a3a4b7;
 }
 
-tr:hover{
-    background-color: rgb(225, 216, 216);
+tr:hover {
+  background-color: rgb(225, 216, 216);
 }
 
 tr td:not(:first-child) {
@@ -44,8 +133,8 @@ tr td:not(:first-child) {
 
 .radio {
   width: 120px;
-  margin: 0 auto; 
-  text-align: center; 
+  margin: 0 auto;
+  text-align: center;
 }
 
 .radio div {
@@ -56,13 +145,14 @@ tr td:not(:first-child) {
   width: 15px;
   border-radius: 50%;
   font-weight: bold;
-  margin-left:10px;
+  margin-left: 10px;
 }
 
 .radio div:last-child {
   background-color: green;
   color: white;
   text-decoration: underline;
+  font-size: 12px;
 }
 
 .officil-imgage div,
