@@ -6,74 +6,146 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #1b2a3d;
-    color: white;
 }
 
-.navbar {
-    background-color: #0a0e1a;
-    padding: 10px;
+header {
+    background-color: #032a41; /* Dark blue background */
+    padding: 10px 20px;
+}
+
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar a {
+.logo a {
     color: white;
+    font-size: 18px;
+    font-weight: bold;
     text-decoration: none;
-    margin-right: 20px;
 }
 
-.navbar .login-btn {
-    background-color: #2a4365;
+.arrow {
     color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
+    margin-left: 5px;
+    font-size: 12px;
 }
 
-.content {
-    display: flex;
-    padding: 20px;
+.login a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
 }
 
-.sidebar {
-    width: 20%;
-    background-color: #23344e;
-    padding: 20px;
+.user-icon {
+    color: white;
+    margin-left: 5px;
+    font-size: 16px;
 }
 
-.sidebar a {
+menu-header a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
     display: block;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.competitions {
-    width: 80%;
-    padding: 0 20px;
-}
-
-.categories {
+.menu-items {
     display: flex;
     justify-content: space-between;
 }
 
-.category {
-    background-color: #2a4365;
+.menu-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-column a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-    width: 30%;
 }
 
-.category h2 {
+.section {
+    margin-bottom: 40px;
+}
+
+.menu-column a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.icon-item {
+    text-align: center;
+    width: 150px;
+}
+
+.icon-item img {
+    max-width: 100px;
     margin-bottom: 10px;
 }
 
-.category ul {
-    list-style: none;
+.icon-item p {
+    font-size: 14px;
+    color: #b0c7d5;
 }
 
-.category ul li {
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.icon-item {
+    text-align: center;
+    width: 150px;
+}
+
+.icon-item img {
+    max-width: 100px;
     margin-bottom: 10px;
+}
+
+.icon-item p {
+    font-size: 14px;
+    color: #b0c7d5;
 }
