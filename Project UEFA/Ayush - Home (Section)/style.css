@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Manrope regular", system-ui, sans-serif;
+    /* font-family: "Manrope regular", system-ui, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: "Space Grotesk", sans-serif; */
+    /* font-family: "Gowun Batang", serif; */
+
+    a {
+        text-decoration: none;
+        color: white;
+        transition: 0.8s ease-out;
+
+        &:hover {
+            cursor: pointer;
+            color: #00eeff;
+            /* text-decoration: underline; */
+            transition: 0.8s ease-in;
+        }
+    }
 }
+
 
 body {
     color: white;
@@ -53,6 +72,9 @@ body {
     width: 100%;
     height: 24vh;
     background: linear-gradient(to right, rgb(19, 19, 232) 40%, rgb(0, 0, 108) 80%);
+    /* position: fixed;
+    z-index: 3; */
+    /* top: 0; */
 
     .top-menu {
         padding-left: 5vw;
@@ -60,7 +82,8 @@ body {
         background: linear-gradient(to right, rgb(19, 19, 232) 40%, rgb(0, 0, 108) 80%);
         width: 100%;
         height: 7vh;
-        /* position: fixed; */
+        /* position: fixed;
+        z-index: 3; */
         /* top: 0; */
 
         ul {
@@ -126,7 +149,6 @@ body {
         align-items: center;
 
 
-
         /* Match-Card */
         #match-card {
             width: 71vw;
@@ -136,14 +158,15 @@ body {
             align-items: center;
             /* background: grey; */
             margin-left: 2rem;
-            overflow: visible;
+            overflow: hidden;
             margin-left: 8rem;
 
             .card {
                 margin-left: 1rem;
                 padding: 0.32vw;
                 padding-left: 0.76vw;
-                width: 9vw;
+                /* width: 9vw; */
+                width: 12em;
                 height: 11vh;
                 display: flex;
                 flex-direction: column;
@@ -151,6 +174,10 @@ body {
                 align-items: start;
                 background: #212121bc;
                 border-radius: 0.41vw;
+                font-size: 1vw;
+                letter-spacing: 0.1em;
+                /* font-family: "Space Grotesk", sans-serif; */
+                font-family: 'Times New Roman', Times, serif;
 
                 .top {
                     justify-self: start;
@@ -265,7 +292,10 @@ body {
             /* gap: 0.64vh; */
             word-wrap: break-word;
             text-align: center;
-            font-size: 0.83vw;
+            font-size: 0.96vw;
+            letter-spacing: 0.18vh;
+            font-family: "Space Grotesk", sans-serif;
+
         }
 
         & .circle-match img {
@@ -1028,11 +1058,14 @@ tbody tr {
         color: black;
         margin-top: 0.8vw;
         transition: 0.9s ease-in;
+        font-size: 0.76vw;
+        text-transform: capitalize;
         letter-spacing: 0.2vw;
 
         &:hover {
             cursor: pointer;
-            box-shadow: inset 19vw 0 0 0 #1e5365, inset -19vw 0 0 0 green;
+            /* box-shadow: inset 20vw 0 0 0 #77c8e4bf, inset -20vw 0 0 0 green; */
+            box-shadow: inset 16.34vw 0 0 0 #63b1cbbf, inset -16.34vw 0 0 0 rgba(70, 157, 70, 0.893);
             transition: 0.9s ease-in;
         }
     }
@@ -1041,21 +1074,34 @@ tbody tr {
 /* Grouping : sponsor */
 #grouping-sponsor {
     margin: auto;
-    width: 43vw;
-    height: 11vh;
+    width: 48vw;
+    height: 18vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.7vw;
 
-    /* background: #000; */
     .group {
         width: 5vw;
-        height: 4vh;
+        height: 5.33vh;
         margin-top: 2rem;
+        border: none;
 
         img {
+            width: 5.3vw;
+            height: 5.33vh;
+            background-position: center center;
+            background-size: cover;
+            border: none;
             border-radius: 1.3vw;
+            box-shadow: 0 0 0.47vw #252525;
+            transition: 0.7s ease-out;
+
+            &:hover {
+                cursor: pointer;
+                transform: translateY(-2.32vh);
+                transition: 0.4s ease-in;
+            }
         }
     }
 }
@@ -1066,7 +1112,7 @@ footer {
     padding: 2.74rem 2.87rem 1.89rem 2.87rem;
     margin-top: 6.4rem;
     /* padding: 6em; */
-    width: 100vw;
+    width: 100%;
     height: 118vh;
     /* background: #050a4f; */
     background: url('./Assits/images/footer/Bg-uefaFooter.jpg');
