@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #032a41; /* Dark blue background */
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.arrow {
+    color: white;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.login a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.user-icon {
+    color: white;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+menu-header a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-column a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.menu-column a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.icon-item {
+    text-align: center;
+    width: 150px;
+}
+
+.icon-item img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.icon-item p {
+    font-size: 14px;
+    color: #b0c7d5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.icon-item {
+    text-align: center;
+    width: 150px;
+}
+
+.icon-item img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.icon-item p {
+    font-size: 14px;
+    color: #b0c7d5;
+}
