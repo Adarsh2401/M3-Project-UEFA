@@ -1,53 +1,137 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sports Highlights</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body>
-    <div class="container">
-        <div class="main-video">
-            <div class="overlay">
-                <button class="login-btn">Log in to watch</button>
-            </div>
-            <img src="./image.png" alt="image">
-        </div>
+<body class="bg-[#000040]">
+   <div class="top-header flex items-center bg-black full text-white p-2 px-12   justify-between">
+     <p class="font-bold">UEFA<span class="font-[300]">.com</span></p>
+     <p class="flex gap-2 items-center">
+     <img class="size-5 rounded-full" src="data:image/png;base64,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" alt="">
+     Login
+     </p>
+   </div>
 
-        <div class="sidebar">
-            <div class="filter-options">
-                <select name="club" id="club">
-                    <option value="club">Filter by Club</option>
-                    <!-- Add more club options -->
-                </select>
+   <header class="bg-[#0117A1] w-full p-6 text-md text-white z-10 sticky top-0">
+       <ul  class=" w-[90%] m-auto flex items-center justify-between font-semibold list-none no-underline">
+           <li><img src="https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo.svg" alt=""></li>
+           <li>Matches</li>
+           <li>Table</li>
+           <li class="bg-cyan-400 p-2 px-6 rounded-full">Video</li>
+           <li>Gaming</li>
+           <li>Stats</li>
+           <li>Teams</li>
+           <li>New Format</li>
+           <li>News</li>
+           <li>History</li>
+           <li>More</li>
+           <li class="border-2 p-2 rounded-full text-sm">Favourite Team <span class="text-md border rounded-full font-bold w-10 h-10">+</span></li>
+       </ul>
+   </header>
 
-                <select name="matchday" id="matchday">
-                    <option value="matchday">Filter by Matchday</option>
-                    <!-- Add more matchday options -->
-                </select>
+   <main>
+      <div class="heading mt-10 ml-20 flex gap-10 flex-col text-white">
+         <h3 class="font-bold text-4xl">Video</h3>
+         <h3 class="font-bold text-4xl">Highlights</h3>
+      </div>
+
+       <div class="filters flex items-center justify-end gap-5 w-[90%] m-auto">
+        <p class="text-white">Filter by</p>
+        <button class="border-2 rounded-md  text-cyan-600 p-3 px-10 text-white border-cyan-400">club</button>
+        <button class="border-2 rounded-md  text-cyan-600 p-3 px-10 text-white border-cyan-400">MatchDay</button>
+       </div>
+
+       <div class="video-container flex gap-3 w-[90%] m-auto mt-10">
+          <div class="left">
+           <img src="https://editorial.uefa.com//resources/0291-1be5376dfb83-478add54f5ee-1000/format/wide1/as_monaco_v_fc_barcelona_-_uefa_champions_league_2024_25_league_phase_md1.jpeg?imwidth=988" alt="" class="relative">
+
+            <button class="bg-cyan-300 p-4 flex items-center gap-3  px-16 font-semibold  bottom-6 left-[30%] rounded-md absolute -1">
+            <img class="size-5 rounded-full" src="data:image/png;base64,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" alt="">
+            Log in to watch
+            </button>
+          </div>
+
+          <div class="right h-[550px] overflow-y-scroll">   
+             <div class="bg-black w-[350px] h-[300px] border"></div>
+             <div class="bg-black w-[350px] h-[300px] border"></div>
+             <div class="bg-black w-[350px] h-[300px] border"></div>
+             <div class="bg-black w-[350px] h-[300px] border"></div>
+             <div class="bg-black w-[350px] h-[300px] border"></div>
+          </div>
+       </div>
+
+       <div class="details text-white mt-10 w-[90%] m-auto flex flex-col gap-3">
+        <h3 class="text-2xl">Highlights: Monaco 2-1 Barcelona</h3>
+        <p class="text-gray-600">6 day ago</p>
+        <p>Watch the best of the action as ten-man Barcelona were beaten in their Champions League opener.</p>
+       </div>
+
+       <footer>
+            <div class="container text-white flex justify-evenly items-center mt-10  p-3">
+               <img class="size-20" src="https://img.uefa.com/imgml/uefacom/ucl/2024/logos/logotype_dark.svg" alt="">
+
+               <div class="list flex flex-col gap-2">
+                    <a>Matches</a>
+                    <a>Table</a>
+                    <a>Video</a>
+                    <a>Gaming</a>
+                    <a>Stats</a>
+               </div>
+
+               <div class="list flex flex-col gap-2">
+                    <a>Teams</a>
+                    <a>New format</a>
+                    <a>News</a>
+                    <a>History</a>
+                    <a>About</a>
+                    <a>Store</a>
+               </div>
+
+               <div class="list flex flex-col gap-2">
+                    <a>Also visit</a>
+                    <a>UEFA.com</a>
+                    <a>UEFA Foundation</a>
+               </div>
+
+               <div class="list flex flex-col gap-2">
+                    <a>Change language</a>
+                    <a>English</a>
+                    <a>Français</a>
+                    <a>Deutsch</a>
+                    <a>Русский</a>
+                    <a>Español</a>
+                    <a>Italiano</a>
+                    <a>Português</a>
+               </div>
             </div>
 
-            <div class="video-list">
-                <div class="video-item now-playing">
-                    <p>NOW PLAYING</p>
+            <div class="w-full p-10 text-white h-[600px] bg-no-repeat bg-cover object-fit bottom-footer bg-[url('https://img.uefa.com/imgml/uefacom/ucl/2024/backgroundDark01M.jpg')]">
+              <div class="bottom-30 flex justify-between w-[90%] m-auto mt-10">
+                <div class="social flex flex-col gap-2">
+                  <a href="">Twitter</a>
+                  <a href="">Facebooko</a>
+                  <a href="">You tube</a>
+                  <a href="">Instagrame</a>
                 </div>
-                <div class="images-item">
-                    <img src="./image2.jpg" alt=" Thumbnail">
-                    <p>Highlights: Brest 2-1 Sturm Graz</p>
-                    
+                <div class="store flex gap-2">
+                <img class="w-[100px] h-[50px] object-fit" src="https://img.uefa.com/imgml/2016/euro/common-elements/appstore.png?imwidth=166" alt="">
+                <img class="w-[100px] h-[50px] object-fit" src="https://img.uefa.com/imgml/2016/euro/common-elements/googleplay.png?imwidth=166" alt="">
                 </div>
-                <div class="images-item">
-                    <img src="./image3.png" alt="images Thumbnail">
-                    <p>Highlights: Team A vs Team B</p>
-                
-                </div>
-                <div class="">
-                    
-                </div>
-                
+              </div>
+
+            <div class="bottom text-white text-center">
+              <p>Privacy Terms and conditions Cookie policy Cookie Settings</p>
             </div>
-        </div>
-    </div>
+
+             <p class="text-sm mt-10 text-center text-gray-600">© 1998-2024 UEFA. All rights reserved.The UEFA word, the UEFA logo and all marks related to UEFA competitions, are protected by trademarks and/or copyright of UEFA. No use for commercial purposes may be made of such trademarks. Use of UEFA.com signifies your agreement to the Terms and Conditions and Privacy Policy.</p>
+            </div>
+
+       </footer>
+   </main>
+
+
 </body>
 </html>
