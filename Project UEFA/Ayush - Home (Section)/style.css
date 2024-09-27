@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gowun+Batang:wght@400;700&family=Sofadi+One&family=Space+Grotesk:wght@300..700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     /* font-family: "Manrope regular", system-ui, sans-serif; */
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
     /* font-family: "Space Grotesk", sans-serif; */
     /* font-family: "Gowun Batang", serif; */
 
@@ -27,6 +27,8 @@
 body {
     color: white;
     background: rgb(225, 225, 225);
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 563; 
     /* margin: auto; */
 }
 
@@ -76,6 +78,10 @@ body {
     z-index: 3; */
     /* top: 0; */
 
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
     .top-menu {
         padding-left: 5vw;
         padding-right: 5vw;
@@ -97,12 +103,12 @@ body {
                 &:hover {
                     cursor: pointer;
                     color: #00eeff;
-                    transition: 0.23s ease-out;
+                    transition: 0.03s ease-out;
                 }
 
                 img {
                     width: 4.64vw;
-                    height: 6vh;
+                    height: 7.8vh;
                 }
             }
 
@@ -653,7 +659,8 @@ body {
         }
 
         &:hover {
-            box-shadow: inset 18em 0 0 0 rgba(52, 60, 196, 0.966);
+            cursor: pointer;
+            box-shadow: inset 20em 0 0 0 rgba(52, 60, 196, 0.966);
             transition: 0.7s ease-in;
 
             h3 {
@@ -1065,8 +1072,8 @@ tbody tr {
         &:hover {
             cursor: pointer;
             /* box-shadow: inset 20vw 0 0 0 #77c8e4bf, inset -20vw 0 0 0 green; */
-            box-shadow: inset 16.34vw 0 0 0 #63b1cbbf, inset -16.34vw 0 0 0 rgba(70, 157, 70, 0.893);
-            transition: 0.9s ease-in;
+            box-shadow: inset 20.34vw 0 0 0 #63b1cbbf, inset -20.34vw 0 0 0 rgba(70, 157, 70, 0.893);
+            transition: 1.02s ease-in;
         }
     }
 }

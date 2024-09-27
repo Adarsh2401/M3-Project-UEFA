@@ -1,83 +1,117 @@
 body {
-    background-color:#000040;
+    background-color: #000040;
     color: white;
-    padding:0px;
+    padding: 0px;
     margin: 0px;
-    font-family: "Manrope regular",system-ui, sans-serif;
-    
+    font-family: "Manrope regular", system-ui, sans-serif;
     max-width: 1920px;
-    }
-    #main-header{
-        display: flex;
-        justify-content: space-between;
+
+    a{
         cursor: pointer;
+        color: white;
+        text-align: center;
+        text-decoration: none;
     }
-    #bottom {
-        display: flex;
-        background-color:#17177a;
-        padding: 0.54vw;
-        margin: 0;
-        text-align: left;
+}
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 1rem 0 1rem;
+
+    .left, img{
+        width: 5vw;
+        height: 8vh;
+
+
     }
-    .bottom-left{
-        width: 40px;
-        height: 30px;
-    }
-    .bottom-right{
-        width: 20px;
-    }
-    .heading{
-        font-size: 22px;
-        padding: 4px;
-    }
+
+    .right svg{
+        width: 0.8vw;
+        height: 5vh;
+        color: white;
+        margin-right: 0.3rem;
     
-    #section2{
-        display: flex;
-        gap:45px;
-        list-style: none;
-        text-align: center;
-        cursor: pointer;
     }
-    .hori{
-        background-color: #1a313c;
-        opacity: 70%;
-        text-align: center;
-    }
-    .para{
-        font-size: 14px;
-        text-align: left;
-        color: #ffffff ;
-        opacity: 70%;
-    }
-    #section1{
-        display: flex;
-        text-align: center;
-        cursor: pointer;
-        list-style: none;
-        flex-wrap: wrap;
-        gap:40px;
-    }
-    #section3{
-        display: flex;
-        text-align: center;
-        list-style: none;
-        flex-wrap: wrap;
-        gap: 40px;
-        cursor: pointer;
-    }
-    #section4{
-        display: flex;
-        text-align: center;
-        list-style: none;
-        flex-wrap: wrap;
-        cursor: pointer;
-        gap:50px;
-    }
-    #section5{
-        display: flex;
-        text-align: center;
-        list-style: none;
-        flex-wrap: wrap;
-        cursor: pointer;
-        gap:45px;
-    }
+}
+
+#bottom {
+    display: flex;
+    background-color: #17177a;
+    padding: 0.54vw;
+    margin: 0;
+    text-align: left;
+}
+
+.bottom-left {
+    width: 40px;
+    height: 30px;
+}
+
+.bottom-right {
+    width: 20px;
+}
+
+.heading {
+    font-size: 22px;
+    padding: 4px;
+}
+
+#section2 {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hori {
+    background-color: #1a313c;
+    opacity: 70%;
+    text-align: center;
+}
+
+.para {
+    font-size: 14px;
+    text-align: left;
+    color: #ffffff;
+    opacity: 70%;
+}
+
+#section1 {
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#section3 {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 40px;
+    cursor: pointer;
+}
+
+#section4 {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    flex-wrap: wrap;
+    cursor: pointer;
+    gap: 50px;
+}
+
+#section5 {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    flex-wrap: wrap;
+    cursor: pointer;
+    gap: 45px;
+}

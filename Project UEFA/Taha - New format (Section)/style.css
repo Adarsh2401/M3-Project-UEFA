@@ -43,7 +43,7 @@ body {
 }
 
 .logo {
-  width: 150px;
+  width: 7.5em;
   height: auto;
 }
 
@@ -190,12 +190,28 @@ p {
 .info-container {
   display: flex;
   justify-content: space-evenly;
+
+  .info-card {
+    height: 400px;
+    width: 280px;
+    overflow: hidden;
+    border-radius: 2.2vw;
+    
+  }
 }
 
 .info-container img {
   height: 400px;
   width: 280px;
+  transition: 0.8s ease-out;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.8s ease-in;
+  }
 }
+
 
 .table-container {
   padding-top: px;

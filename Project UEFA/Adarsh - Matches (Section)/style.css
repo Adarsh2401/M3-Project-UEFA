@@ -10,10 +10,13 @@
 body {
     color: rgb(249, 247, 247);
     background-color: rgba(241, 243, 248, 1);
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
     
 }
-
-
 
 
 
