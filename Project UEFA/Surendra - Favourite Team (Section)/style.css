@@ -15,21 +15,28 @@ body {
     #bottom {
         display: flex;
         background-color:#17177a;
+        color: #ffffff;
         padding: 0.54vw;
         margin: 0;
         text-align: left;
+        font-family: sans-serif;
+        font-size:17px;
+        line-height: normal;
+        & > img {
+            color: #ffffff;
+        }
     }
-    .bottom-left{
-        width: 40px;
-        height: 30px;
+    
+    #second-head{
+        display: flex;
+        flex-direction: column;
+        & > h1{
+            font-family: sans-serif;
+            font-size: 50px;
+        }
     }
-    .bottom-right{
-        width: 20px;
-    }
-    .heading{
-        font-size: 22px;
-        padding: 4px;
-    }
+    
+    
     
     #section2{
         display: flex;
