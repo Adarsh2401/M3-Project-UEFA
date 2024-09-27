@@ -12,7 +12,6 @@ body {
         text-align: center;
         text-decoration: none;
     }
-<<<<<<< HEAD
 }
 
 #main-header {
@@ -27,30 +26,6 @@ body {
         height: 8vh;
 
 
-=======
-    #bottom {
-        display: flex;
-        background-color:#17177a;
-        color: #ffffff;
-        padding: 0.54vw;
-        margin: 0;
-        text-align: left;
-        font-family: sans-serif;
-        font-size:17px;
-        line-height: normal;
-        & > img {
-            color: #ffffff;
-        }
-    }
-    
-    #second-head{
-        display: flex;
-        flex-direction: column;
-        & > h1{
-            font-family: sans-serif;
-            font-size: 50px;
-        }
->>>>>>> 1228217da501070c4581ee289486aa168f2613ac
     }
 
     .right svg{
@@ -59,17 +34,6 @@ body {
         color: white;
         margin-right: 0.3rem;
     
-<<<<<<< HEAD
-=======
-    
-    
-    #section2{
-        display: flex;
-        gap:45px;
-        list-style: none;
-        text-align: center;
-        cursor: pointer;
->>>>>>> 1228217da501070c4581ee289486aa168f2613ac
     }
 }
 
