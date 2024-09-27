@@ -274,7 +274,7 @@ body {
     .victory-img {
         width: 71vw;
         height: 75vh;
-        background-color: indianred;
+        /* background-color: indianred; */
         overflow: hidden;
         border-radius: 0.7em;
 
@@ -363,7 +363,7 @@ body {
 .fair-meet {
     width: 71vw;
     height: 75vh;
-    background-color: indianred;
+    /* background-color: indianred; */
     overflow: hidden;
     border-radius: 0.7em;
 
@@ -456,7 +456,7 @@ body {
     padding-left: 0.5vw;
     /* font-family: "Dancing Script", cursive; */
     /* font-family: "Sofadi One", system-ui; */
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serigit statusf; */
 
     &:hover {
         cursor: pointer;
