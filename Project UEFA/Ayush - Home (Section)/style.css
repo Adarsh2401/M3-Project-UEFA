@@ -1094,7 +1094,7 @@ tbody tr {
             background-size: cover;
             border: none;
             border-radius: 1.3vw;
-            box-shadow: 0 0 0.47vw #252525;
+            box-shadow: 0 0 0.16vw #252525;
             transition: 0.7s ease-out;
 
             &:hover {
