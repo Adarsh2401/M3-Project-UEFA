@@ -29,6 +29,23 @@ body {
         font-size: 1.42em;
     }
 
+    /* .mov-arr {
+        animation-name: infiniteSpine;
+        animation-duration: 0.72s;
+        animation-iteration-count: infinite;
+        Added this to ensure infinite looping
+    }
+
+    @keyframes infiniteSpine {
+        from {
+            transform: translate(2.2em);
+        }
+
+        to {
+            transform: translate(0em);
+        }
+    } */
+
     .log-in {
         padding-right: 3.6vw;
         display: flex;
@@ -55,6 +72,24 @@ body {
     }
 }
 
+
+/* This content from header  .my-uefa > .uefa-tex > .mov-arr*/
+.mov-arr {
+    animation-name: infiniteSpine;
+    animation-duration: 1.72s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes infiniteSpine {
+    from {
+        transform: translate(2.2em);
+    }
+
+    to {
+        transform: translate(0em);
+    }
+}
 
 
 
