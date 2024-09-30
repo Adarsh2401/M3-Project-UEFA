@@ -28,7 +28,7 @@ body {
     color: white;
     background: rgb(225, 225, 225);
     font-family: "Space Grotesk", sans-serif;
-    font-weight: 563; 
+    font-weight: 563;
     /* margin: auto; */
 }
 
@@ -74,10 +74,6 @@ body {
     width: 100%;
     height: 24vh;
     background: linear-gradient(to right, rgb(19, 19, 232) 40%, rgb(0, 0, 108) 80%);
-    /* position: fixed;
-    z-index: 3; */
-    /* top: 0; */
-
     position: sticky;
     top: 0;
     z-index: 2;
@@ -88,9 +84,6 @@ body {
         background: linear-gradient(to right, rgb(19, 19, 232) 40%, rgb(0, 0, 108) 80%);
         width: 100%;
         height: 7vh;
-        /* position: fixed;
-        z-index: 3; */
-        /* top: 0; */
 
         ul {
             display: flex;
