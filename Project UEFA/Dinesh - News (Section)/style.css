@@ -11,24 +11,30 @@ body {
     /* margin: auto; */
 }
 
-
+a {
+    color: white;
+    text-decoration: none;
+}
 
 #sub-header {
     width: 100%;
-    height: 21vh; 
-    background: linear-gradient(to right, rgb(19, 19, 232) 40%, rgb(0, 0, 108) 80%); 
+    height: 9.7vh;
+    z-index: 2;
+    background: linear-gradient(to right, rgb(19, 19, 232) 40%, rgb(0, 0, 108) 80%);
+    position: sticky;
+    top: 0;
 }
 
 /* Top Menu */
 .top-menu {
-    padding: 0 5%; 
-    background: linear-gradient(to right, rgb(19, 19, 232) 40%, rgb(0, 0, 108) 80%); 
+    padding: 0 5%;
+    background: linear-gradient(to right, rgb(19, 19, 232) 40%, rgb(0, 0, 108) 80%);
     width: 100%;
-    height: 7vh; 
+    height: 7vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 /* Menu Items */
@@ -45,7 +51,8 @@ body {
     padding: 0.8rem;
     color: white;
 }
-.top-menu ul li a{
+
+.top-menu ul li a {
     color: white;
     text-decoration: none;
 }
@@ -59,11 +66,11 @@ body {
 
 /* Logo Images */
 .top-menu ul li img {
-    width: 8vw; 
-    max-width: 6rem; 
-    min-width: 3rem; 
-    height: auto; 
-    display: block; 
+    width: 8vw;
+    max-width: 6rem;
+    min-width: 3rem;
+    height: auto;
+    display: block;
 }
 
 /* Favourite Button */
@@ -106,6 +113,10 @@ body {
 
 /* Very Small Screens (129px and up) */
 @media (max-width: 320px) {
+    #sub-header {
+        height: 21vh;
+    }
+
     .top-menu ul {
         flex-direction: column;
         justify-content: center;
@@ -113,7 +124,7 @@ body {
     }
 
     .top-menu ul li img {
-        width: 30vw; 
+        width: 30vw;
     }
 
     .favourite {
@@ -121,13 +132,17 @@ body {
     }
 
     .favourite svg {
-        width: 1rem; 
+        width: 1rem;
         height: 1rem;
     }
 }
 
 /* Mobile Screens (up to 480px) */
 @media (max-width: 480px) {
+    #sub-header {
+        height: 21vh;
+    }
+
     .top-menu ul {
         flex-direction: row;
         flex-wrap: wrap;
@@ -135,7 +150,7 @@ body {
     }
 
     .top-menu ul li img {
-        width: 25vw; 
+        width: 25vw;
     }
 
     .favourite {
@@ -151,12 +166,16 @@ body {
 
 /* Mid Screens (up to 768px) */
 @media (max-width: 768px) {
+    #sub-header {
+        height: 18vh;
+    }
+
     .top-menu {
         padding: 0 3vw;
     }
 
     .top-menu ul li img {
-        width: 15vw; 
+        width: 15vw;
     }
 
     .favourite {
@@ -172,9 +191,12 @@ body {
 
 /* Larger Screens (769px and up) */
 @media (min-width: 769px) {
+    #sub-header {
+        height: 12vh;
+    }
     .top-menu ul {
         flex-direction: row;
-        justify-content: space-evenly; 
+        justify-content: space-evenly;
     }
 
     .top-menu ul li img {

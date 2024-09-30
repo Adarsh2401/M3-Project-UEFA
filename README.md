@@ -117,7 +117,82 @@ Follow these simple steps to set up the UEFA Championship League Website Clone o
     🔥 https://uefachampionshipleague7.netlify.app/  🔥
 
     🔥Screenshots    
-    🟢Home Page :
+    
+🟢UEFA.com Page:
+![UEFAcom Page - 1](./Project-Screenshots/UEFAcom-page/u1.png)
+![UEFAcom Page - 2](./Project-Screenshots/UEFAcom-page/u2.png)
 
-![Home Page](./Project-Screenshots/Home-page/h1.png)
-![Home Page.2](./Project-Screenshots/Home-page/h2.png)
+🟢Login Page:
+![Login Page - 1](./Project-Screenshots/Login-page/login_page.png)
+
+🟢Home Page:
+![Home Page - 1](./Project-Screenshots/Home-page/h1.png)
+![Home Page - 2](./Project-Screenshots/Home-page/h2.png)
+![Home Page - 3](./Project-Screenshots/Home-page/h3.png)
+![Home Page - 4](./Project-Screenshots/Home-page/h4.png)
+![Home Page - 5](./Project-Screenshots/Home-page/h5.png)
+![Home Page - 6](./Project-Screenshots/Home-page/h6.png)
+![Home Page - 7](./Project-Screenshots/Home-page/h7.png)
+![Home Page - 8](./Project-Screenshots/Home-page/h8.png)
+![Home Page - 9](./Project-Screenshots/Home-page/h9.png)
+![Home Page - 10](./Project-Screenshots/Home-page/h10.png)
+
+🟢Matches Page:
+![Matches Page - 1](./Project-Screenshots/Matches-page/m1.png)
+![Matches Page - 2](./Project-Screenshots/Matches-page/m2.png)
+![Matches Page - 3](./Project-Screenshots/Matches-page/m3.png)
+![Matches Page - 4](./Project-Screenshots/Matches-page/m4.png)
+
+🟢Table Page:
+![Table Page - 1](./Project-Screenshots/Table-page/tb1.png)
+![Table Page - 2](./Project-Screenshots/Table-page/tb2.png)
+![Table Page - 3](./Project-Screenshots/Table-page/tb3.png)
+
+🟢Video Page:
+![Video Page - 1](./Project-Screenshots/Video-page/v1.png)
+![Video Page - 2](./Project-Screenshots/Video-page/v2.png)
+![Video Page - 3](./Project-Screenshots/Video-page/v3.png)
+
+🟢Gaming Page:
+![Gaming Page - 1](./Project-Screenshots/Gaming-page/g1.png)
+![Gaming Page - 2](./Project-Screenshots/Gaming-page/g2.png)
+![Gaming Page - 3](./Project-Screenshots/Gaming-page/g3.png)
+
+🟢Statistic Page:
+![Statistics Page - 1](./Project-Screenshots/Statistics-page/st1.png)
+![Statistics Page - 2](./Project-Screenshots/Statistics-page/st2.png)
+![Statistics Page - 3](./Project-Screenshots/Statistics-page/st3.png)
+![Statistics Page - 4](./Project-Screenshots/Statistics-page/st4.png)
+![Statistics Page - 5](./Project-Screenshots/Statistics-page/st5.png)
+![Statistics Page - 6](./Project-Screenshots/Statistics-page/st6.png)
+
+🟢Team Page:
+![Team Page - 1](./Project-Screenshots/Teams-page/tm1.png)
+![Team Page - 2](./Project-Screenshots/Teams-page/tm3.png)
+![Team Page - 3](./Project-Screenshots/Teams-page/tm2.png)
+![Team Page - 4](./Project-Screenshots/Teams-page/tm4.png)
+
+🟢New Format Page:
+![New Format - 1](./Project-Screenshots/New_Format-page/NF1.png)
+![New Format - 2](./Project-Screenshots/New_Format-page/NF2.png)
+![New Format - 3](./Project-Screenshots/New_Format-page/NF3.png)
+
+🟢News Page:
+![News Page - 1](./Project-Screenshots/News-page/nw1.png)
+![News Page - 2](./Project-Screenshots/News-page/nw2.png)
+![News Page - 3](./Project-Screenshots/News-page/nw3.png)
+![News Page - 4](./Project-Screenshots/News-page/nw4.png)
+![News Page - 5](./Project-Screenshots/News-page/nw5.png)
+
+🟢About Page:
+![About Page - 1](./Project-Screenshots/About-page/ab1.png)
+![About Page - 2](./Project-Screenshots/About-page/ab2.png)
+![About Page - 3](./Project-Screenshots/About-page/ab3.png)
+![About Page - 4](./Project-Screenshots/About-page/ab4.png)
+
+🟢Favourite Page:
+![Favourite Page - 1](./Project-Screenshots/favourite-page/f1.png)
+![Favourite Page - 2](./Project-Screenshots/favourite-page/f2.png)
+![Favourite Page - 3](./Project-Screenshots/favourite-page/f3.png)
+
+
