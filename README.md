@@ -5,6 +5,7 @@ Welcome to the UEFA Championship League Website Clone, a project dedicated to re
 The UEFA Championship League Clone was assigned as a major project by Geekster, aimed at testing our ability to handle complex web development tasks, including dynamic content presentation, responsive design, and user experience optimization.
 
 This project was led by Ayush Kohre and developed in collaboration with a talented team of six members:
+
 🟢 Meet the Development Team 
 Our UEFA Championship League Website Clone was meticulously crafted by a dedicated and talented team of front-end developers. Each member contributed their unique expertise to various aspects of the website, focusing on delivering an engaging user interface using only HTML and CSS. While the project is not yet fully responsive, we are continuously improving to ensure optimal viewing experiences across devices.
 
@@ -33,6 +34,7 @@ Though the project is still a work in progress in terms of full responsiveness, 
 
 
 🚀 Features
+
 📌 Skilled Front-End Developers: Our team comprises highly talented front-end developers, skilled in building visually appealing and user-friendly web pages using HTML and CSS. Each team member contributed to specific sections of the website, ensuring the best possible user experience within the project's scope.
 
 📌 Interactive User Experience: Special attention was given to enhancing user interactivity, with subtle hover effects and animations incorporated by the project lead, Ayush Kohre, particularly on the Landing Page and Statistics Page. These elements create a more engaging and dynamic browsing experience.
@@ -44,7 +46,7 @@ Though the project is still a work in progress in terms of full responsiveness, 
 📌 Basic Responsiveness: Although not fully responsive, the website design is adaptable for some screen sizes, ensuring basic accessibility on larger displays such as desktops and laptops.
 
 🟢 Project Assigned
-> UEFA Championship League Website Clone
+- UEFA Championship League Website Clone
 
 * Landing Page
 * Login Page
